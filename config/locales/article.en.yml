@@ -1,0 +1,10 @@
+en:
+  article:
+    actions:
+      index: 'Articles'
+      show: 'Show'
+      edit: 'Edit Article'
+      new: 'New Article'
+    fields:
+      title: 'Title'
+      text: 'Text'

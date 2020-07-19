@@ -1,0 +1,16 @@
+%nav#navbar-main.col-md-12.d-md-block.sidebar
+  .block.px-5
+    %br
+    %br
+    %ul.nav.nav-pills
+      %li.nav-item{class: active_class(root_path)}
+        = link_to root_path, class: 'nav-link' do
+          = fa('home')
+          %span
+            Home
+     
+      %li.nav-item{class: active_class(articles_path)}
+        = link_to articles_path, class: 'nav-link' do
+          = fa('product-hunt')
+          %span
+            = t('aricle.actions.index')
